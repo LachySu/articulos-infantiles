@@ -1,4 +1,7 @@
 <template>
+    <div class="banner1">
+       <p>20% off all kidswear + free shipping when you spend $60 or more</p>
+    </div>
     <div class="banner">
         <img class="banner__img" src="../assets/recursos/main/logo.png">        
     </div>
@@ -33,28 +36,6 @@
             </li>
         </ul>
     </div>
-    <div class="body">
-        <div class="body__item">
-            <img src="../assets/recursos/main/girl.png">
-            <a class="body__item__link" href="#">For Girls</a>
-        </div>
-        <div class="body__item">
-            <img src="../assets/recursos/main/boy.png">
-            <a class="body__item__link" href="#">For Boys</a>
-        </div>
-        <div class="body__item">
-            <img src="../assets/recursos/main/baby.png">
-            <a class="body__item__link" href="#">For Babies</a>
-        </div>
-        <div class="body__item">
-            <img src="../assets/recursos/main/toys.png">
-            <a class="body__item__link" href="#">Home & Toys</a>
-        </div>
-        <div class="body__item">
-            <img class="body__item__img" src="../assets/recursos/main/play.jpg">
-            <a class="body__item__link" href="#">For Play</a>
-        </div>
-    </div>
 </template>
 
 <script>
@@ -65,10 +46,19 @@
 
 <style lang="scss" scoped>
 @import "../scss/config.scss";
-
+.banner1{
+    background-color: $color-1;
+    margin-top: 0px;
+    height: 30px;
+}
+p {
+ color: white;
+ text-align: center;
+ padding-top: 4px;
+}
 .banner{
     &__img{
-        padding-left: 43%;
+        padding-left: 38%;
         padding-top: 2em;
         padding-bottom: 2em;
     }
@@ -87,24 +77,6 @@
                 font-family: $ff-1;
                 font-size: 20px;
             }
-        }
-    }
-}
-.body{
-    display: flex;
-    justify-content: center;
-    &__item{
-        margin: 30px;
-        display: grid;
-        &__img{
-            border-radius: 50%;
-        }
-        &__link{
-           text-decoration: none; 
-           font-family: $ff-2;
-           color: $color-2;
-           font-size: 20px;
-           text-align: center;              
         }
     }
 }

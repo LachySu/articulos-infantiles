@@ -18,6 +18,7 @@
   text-align: center;
   display: grid;
   padding: 2em;
+  padding-bottom: 7em;
   &__link{
     text-decoration: none;
     color: $color-2;
@@ -28,7 +29,7 @@
     margin-left: 48%;
   }
   &__img2{
-    margin-left: 15%;
+    margin-left: 2%;
     padding: 2em;
   }
 }

@@ -1,25 +1,28 @@
 <template>
   <div class="home">
-    <banner/>
     <main-header/>
-    <card />
-    <foote />
+    <filterr/>
+    <bodyy/>
+    <card/>
+    <footerr/>
   </div>
 </template>
 
 <script>
-import Banner from '@/components/Banner.vue'
 import MainHeader from '@/components/MainHeader.vue'
+import Filterr from '@/components/section/Filter.vue'
+import Bodyy from '@/components/Body.vue'
 import Card from '@/components/Card.vue'
-import Foote from '@/components/Footer.vue'
+import Footerr from '@/components/Footer.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    Banner,
     MainHeader,
+    Filterr,
+    Bodyy,
     Card,
-    Foote
+    Footerr
   }
 }
 </script>

@@ -1,0 +1,78 @@
+{
+  "uuid": "43b4f717-98c9-4c06-8029-85ebb4865094",
+  "lastMigration": 27,
+  "name": "Product",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 80,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "8f01b916-0618-4efc-b1e1-5b0daa0c9add",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "productos",
+      "responses": [
+        {
+          "uuid": "0bad5e52-aa84-4097-803f-9939f4de562a",
+          "body": "{\r\n  \"datos\": [\r\n    {\r\n      \"nombre\": \"Vestido floral\",\r\n      \"precio\": 29.99,\r\n      \"cantidad\": 5,\r\n      \"categoria\": \"for girls\",\r\n      \"tags\": [\"vestido\", \"flores\", \"moda\"],\r\n      \"descripcion\": \"Hermoso vestido floral para niñas.\",\r\n      \"informacion_adicional\": \"Tallas disponibles: S, M, L.\",\r\n      \"valoracion\": 4.5,\r\n      \"sku\": \"VG001\",\r\n      \"imagenes\": [\"vestido_floral1.jpg\", \"vestido_floral2.jpg\"]\r\n    },\r\n    {\r\n      \"nombre\": \"Camisa a rayas\",\r\n      \"precio\": 19.99,\r\n      \"cantidad\": 8,\r\n      \"categoria\": \"for boys\",\r\n      \"tags\": [\"camisa\", \"rayas\", \"moda\"],\r\n      \"descripcion\": \"Camisa a rayas para niños.\",\r\n      \"informacion_adicional\": \"Colores disponibles: azul y rojo.\",\r\n      \"valoracion\": 4.2,\r\n      \"sku\": \"CB002\",\r\n      \"imagenes\": [\"camisa_rayas1.jpg\", \"camisa_rayas2.jpg\"]\r\n    },\r\n    {\r\n      \"nombre\": \"Manta suave\",\r\n      \"precio\": 15.99,\r\n      \"cantidad\": 10,\r\n      \"categoria\": \"for babies\",\r\n      \"tags\": [\"manta\", \"suave\", \"bebé\"],\r\n      \"descripcion\": \"Manta suave para bebés.\",\r\n      \"informacion_adicional\": \"Material: algodón 100%.\",\r\n      \"valoracion\": 4.8,\r\n      \"sku\": \"MB003\",\r\n      \"imagenes\": [\"manta_suave1.jpg\", \"manta_suave2.jpg\"]\r\n    },\r\n    {\r\n      \"nombre\": \"Cojín decorativo\",\r\n      \"precio\": 12.99,\r\n      \"cantidad\": 15,\r\n      \"categoria\": \"for home\",\r\n      \"tags\": [\"cojín\", \"decoración\", \"hogar\"],\r\n      \"descripcion\": \"Cojín decorativo para el hogar.\",\r\n      \"informacion_adicional\": \"Medidas: 45x45 cm.\",\r\n      \"valoracion\": 4.0,\r\n      \"sku\": \"CH004\",\r\n      \"imagenes\": [\"cojin_decorativo1.jpg\", \"cojin_decorativo2.jpg\"]\r\n    },\r\n    {\r\n      \"nombre\": \"Set de bloques\",\r\n      \"precio\": 39.99,\r\n      \"cantidad\": 3,\r\n      \"categoria\": \"for play\",\r\n      \"tags\": [\"bloques\", \"juguete\", \"niños\"],\r\n      \"descripcion\": \"Set de bloques para jugar.\",\r\n      \"informacion_adicional\": \"Incluye 50 bloques de colores.\",\r\n      \"valoracion\": 4.6,\r\n      \"sku\": \"PB005\",\r\n      \"imagenes\": [\"bloques1.jpg\", \"bloques2.jpg\"]\r\n    },\r\n    {\r\n      \"nombre\": \"Vestido de princesa\",\r\n      \"precio\": 34.99,\r\n      \"cantidad\": 7,\r\n      \"categoria\": \"for girls\",\r\n      \"tags\": [\"vestido\", \"princesa\", \"fiesta\"],\r\n      \"descripcion\": \"Precioso vestido de princesa para niñas.\",\r\n      \"informacion_adicional\": \"Tallas disponibles: S, M, L, XL.\",\r\n      \"valoracion\": 4.9,\r\n      \"sku\": \"VG006\",\r\n      \"imagenes\": [\"vestido_princesa1.jpg\", \"vestido_princesa2.jpg\"]\r\n    },\r\n    {\r\n      \"nombre\": \"Camiseta deportiva\",\r\n      \"precio\": 24.99,\r\n      \"cantidad\": 12,\r\n      \"categoria\": \"for boys\",\r\n      \"tags\": [\"camiseta\", \"deporte\", \"niños\"],\r\n      \"descripcion\": \"Camiseta deportiva para niños.\",\r\n      \"informacion_adicional\": \"Colores disponibles: negro y azul.\",\r\n      \"valoracion\": 4.3,\r\n      \"sku\": \"CB007\",\r\n      \"imagenes\": [\"camiseta_deportiva1.jpg\", \"camiseta_deportiva2.jpg\"]\r\n    },\r\n    {\r\n      \"nombre\": \"Body de algodón\",\r\n      \"precio\": 9.99,\r\n      \"cantidad\": 20,\r\n      \"categoria\": \"for babies\",\r\n      \"tags\": [\"body\", \"algodón\", \"bebé\"],\r\n      \"descripcion\": \"Body de algodón para bebés.\",\r\n      \"informacion_adicional\": \"Tallas disponibles: 0-3 meses, 3-6 meses.\",\r\n      \"valoracion\": 4.7,\r\n      \"sku\": \"MB008\",\r\n      \"imagenes\": [\"body_algodon1.jpg\", \"body_algodon2.jpg\"]\r\n    },\r\n    {\r\n      \"nombre\": \"Cojín de unicornio\",\r\n      \"precio\": 17.99,\r\n      \"cantidad\": 6,\r\n      \"categoria\": \"for home\",\r\n      \"tags\": [\"cojín\", \"unicornio\", \"decoración\"],\r\n      \"descripcion\": \"Cojín de unicornio para decorar tu hogar.\",\r\n      \"informacion_adicional\": \"Medidas: 40x40 cm.\",\r\n      \"valoracion\": 4.4,\r\n      \"sku\": \"CH009\",\r\n      \"imagenes\": [\"cojin_unicornio1.jpg\", \"cojin_unicornio2.jpg\"]\r\n    },\r\n    {\r\n      \"nombre\": \"Rompecabezas de animales\",\r\n      \"precio\": 14.99,\r\n      \"cantidad\": 9,\r\n      \"categoria\": \"for play\",\r\n      \"tags\": [\"rompecabezas\", \"animales\", \"juguete\"],\r\n      \"descripcion\": \"Rompecabezas de animales para jugar.\",\r\n      \"informacion_adicional\": \"Incluye 100 piezas.\",\r\n      \"valoracion\": 4.1,\r\n      \"sku\": \"PB010\",\r\n      \"imagenes\": [\"rompecabezas1.jpg\", \"rompecabezas2.jpg\"]\r\n    }\r\n  ]\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "8f01b916-0618-4efc-b1e1-5b0daa0c9add"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": []
+}
